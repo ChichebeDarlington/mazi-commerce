@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  background-color: #404040;
+  top: 0;
+  width: 100%;
+  height: 10px;
+}
+
+header {
+  background-color: #404040;
+  padding: 1rem;
+}
+
+header a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar.cart {
+  position: relative;
+}
+.navbar small {
+  position: absolute;
+  right: 20px;
+}

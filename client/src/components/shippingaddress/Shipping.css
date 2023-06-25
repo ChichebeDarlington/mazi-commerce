@@ -1,0 +1,28 @@
+.shipping {
+  height: calc(100vh - 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipping .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+}
+
+input {
+  display: block;
+  width: 250px;
+}
+
+.shipping-btn {
+  background-color: #3030fa;
+  border: 1.97px solid #3030fa;
+  border-radius: 5.5px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
